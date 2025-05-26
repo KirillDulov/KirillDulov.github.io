@@ -1,0 +1,434 @@
+circle {
+    fill: rgb(249, 3, 3);
+    stroke: black;
+    transition: .3s;
+}
+
+circle:hover {
+    fill: rgb(0, 187, 255);
+    stroke: rgb(255, 0, 255);
+}
+
+.table {
+    margin: 0 auto;
+    width: 900px;
+    height: 800px;
+    border-spacing: 0px;
+
+}
+
+.yellow,
+.yellow1,
+.yellow2 {
+    background-color: yellow;
+    color: yellow;
+}
+
+.red,
+.red1 {
+    background-color: red;
+    color: red;
+}
+
+.black,
+.black1 {
+    background-color: black;
+    color: black;
+}
+
+.blue {
+    background-color: blue;
+    color: blue;
+}
+
+.kom16,
+.red1 {
+    width: 40px;
+}
+
+.kom2,
+.kom4,
+.yellow1 {
+    width: 70px;
+}
+
+.red {
+    height: 170px;
+
+}
+
+.yellow2 {
+    height: 100px;
+}
+
+.kom1 {
+    height: 60px;
+}
+
+.kom81 {
+    height: 50px;
+}
+
+td {
+    border: 7px solid black;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    font-family: "comic sans ms";
+}
+
+h2 {
+    margin: 0;
+    font-family: "ink free";
+    font-size: x-large;
+
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+}
+
+
+.container {
+    background-color: rgb(174, 101, 181);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.container1 {
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
+    padding: 20px;
+    overflow-y: scroll;
+
+
+}
+
+.container2 {
+    background-color: aquamarine;
+    width: 700px;
+    height: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.wrapper {
+
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.span {
+    background-color: blueviolet;
+    display: block;
+}
+
+.span1 {
+    background-color: brown;
+
+}
+
+.inline {
+    background-color: burlywood;
+    display: inline;
+}
+
+.home {
+    color: blue;
+
+}
+
+.honda {
+    color: rgb(84, 5, 220);
+    margin-left: 15px;
+}
+
+.suzuki {
+    color: brown;
+    margin-left: 15px;
+}
+
+.kawasaki {
+    color: rgb(10, 69, 196);
+    margin-left: 2px;
+}
+
+.ktm {
+    color: rgb(227, 162, 64);
+    margin-left: 25px;
+}
+
+.form {
+    color: rgb(17, 219, 14);
+    margin-left: 15px;
+}
+
+li {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.myform {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 900px;
+
+}
+
+.contactinfo {
+    background-color: aquamarine;
+    color: rgb(95, 27, 32);
+    font-size: 20px;
+    margin: 0;
+}
+
+.gender {
+    background-color: rgba(69, 157, 100, 0.613);
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.typeofmoto {
+    background-color: rgb(212, 139, 29);
+    text-decoration: underline;
+    border: 3px solid green;
+}
+
+.equipment {
+    background-color: rgb(233, 245, 62);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.submit {
+    background-color: red;
+}
+
+.reset {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(3, 3, 96);
+    background-color: yellow;
+}
+
+.coment {
+    display: block;
+    margin-bottom: 0;
+}
+
+.textarea {
+    margin-bottom: 10px;
+}
+
+.history {
+    background-color: rgb(104, 176, 104);
+    color: blue;
+}
+
+.motorcycle {
+    border: 10px solid red;
+    margin: 0;
+    padding: 10px;
+    color: aqua;
+}
+
+.textdecor {
+    text-decoration: underline;
+}
+
+.kawa {
+    background: rgb(51, 51, 215);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+h1 {
+
+    background-color: aqua;
+}
+
+.test1 {
+    width: 300px;
+    background-color: bisque;
+}
+
+#test2 {
+    width: 300px;
+    background-color: blue;
+}
+
+[src="./images/Daimler_First_Motorcycle.jpeg"] {
+    width: 300px;
+    background-color: brown;
+}
+
+.test3 span {
+    background-color: blueviolet;
+}
+
+.container1>div {
+    width: 300px;
+    background-color: rgb(50, 150, 45);
+}
+
+.test4+.test5 {
+    width: 300px;
+    background-color: yellow;
+}
+
+#test6.test7 {
+    width: 300px;
+    background-color: rgb(183, 40, 202);
+}
+
+a[href="https://www.google.com/"] {
+    width: 300px;
+    background-color: rgb(207, 138, 34);
+}
+
+p.test9 {
+    width: 300px;
+    background-color: rgb(67, 146, 113);
+}
+
+/*homework8*/
+.flex-container {
+    background-color: rgb(179, 155, 201);
+    width: auto;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+
+}
+
+.flex-element {
+    background-color: aquamarine;
+    width: 100px;
+    height: 50px;
+    margin-right: auto;
+}
+
+.flex-element1 {
+    background-color: aqua;
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.flex-element2 {
+    background-color: aqua;
+    width: 100px;
+    height: 50px;
+
+}
+
+.flex-element3 {
+    background-color: aqua;
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.flex-element11 {
+    background-color: aquamarine;
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.flex-element12 {
+    background-color: aqua;
+    width: 100px;
+    height: 50px;
+    margin-right: auto;
+}
+
+.flex-container1 {
+    background-color: rgb(179, 155, 201);
+    width: auto;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.flex-element14 {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+
+}
+
+.flex-element15 {
+    background-color: aqua;
+    width: 100px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.flex-element16 {
+    background-color: aqua;
+    width: 100px;
+    height: 45px;
+}
+
+.flex-container2 {
+    display: block;
+}
+
+.flex-container3 {
+    background-color: rgb(179, 155, 201);
+    width: auto;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center
+}
